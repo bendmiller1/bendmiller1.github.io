@@ -5,22 +5,70 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+a {
+	text-decoration: none;
+	color: red;
+}
+.addtocart {
+	margin-bottom: 1em;
+	background-color: red; 
+	color: white;
+}	
 body {
 	font-size: 18px;
 	text-align: center;
 }
-h3, h1, #slogan, #lowermenu, .topmenu, .productname {
-	font-family: 'Bebas Neue', cursive;
-	letter-spacing: 1px;
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}	
+#cmintro {
+	padding: 1em 0;
 }
-.price, .addtocart, #cmintro {
-	font-family: 'Open Sans', sans-serif;
+footer {
+	background-color: black;
+	color: white;
+	padding: 2em 0;
+	margin-top: 1em;
 }
 h1 {
 	font-size: 3em;
 }
 h3{
 	font-size: 1.5em
+}
+header {
+	padding: .5em 0;
+}
+img {
+	height: 30vh;
+}
+#lowermenu {
+	padding: 2em 0;
+}
+#memorialdaysale {
+	font-size: 3em;
+	padding: .5em 0;
+}
+#new {
+	font-size: 3em;
+	padding: .5em 0;
+}
+.price {
+	display: inline-block;
+}
+.product {
+	width: 33.3%;
+	padding: 1%;
+	float: left;
+}
+.productname {
+	font-size: 1.5em;
+	color: black;
 }
 #slogan {
 	background: url(../images/scar.jpg);
@@ -31,45 +79,15 @@ h3{
 	font-size: 3em;
 	text-align: left;
 }
-.price {
-	display: inline-block;
+h3, h1, #slogan, #lowermenu, .topmenu, .productname {
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 1px;
 }
-header {
-	padding: .5em 0;
+.price, .addtocart, #cmintro {
+	font-family: 'Open Sans', sans-serif;
 }
-#lowermenu {
-	padding: 2em 0;
-}
-#cmintro {
-	padding: 1em 0;
-}
-img {
-	height: 30vh;
-}
-#memorialdaysale {
-	font-size: 3em;
-	padding: .5em 0;
-}
-#new {
-	font-size: 3em;
-	padding: .5em 0;
-}
-a {
-	text-decoration: none;
-	color: red;
-}
-.productname {
-	font-size: 1.5em;
-	color: black;
-}
-footer {
-	background-color: black;
-	color: white;
-	padding: 2em 0;
-	margin-top: 1em;
-}
-.addtocart {
-	margin-bottom: 1em;
-	background-color: red; 
-	color: white;
-}
+
+
+
+
+
