@@ -62,8 +62,9 @@ img {
 	display: inline-block;
 }
 .product {
-	width: 33.3%;
+	width: 31.3%;
 	padding: 1%;
+	margin: 1%;
 	float: left;
 }
 .productname {
