@@ -43,7 +43,7 @@ h1 {
 	letter-spacing: .056em;
 }
 h3{
-	font-size: 1.5em
+	font-size: 1.5em;
 	font-family: 'Bebas Neue', cursive;
 	letter-spacing: .056em;
 }
@@ -51,7 +51,7 @@ header {
 	padding: .5em 0;
 }
 img {
-	height: 30vh;
+	width: 100%;
 }
 #lowermenu {
 	padding: 2em 0;
@@ -98,5 +98,41 @@ img {
 	letter-spacing: .056em;
 }
 
-
+@media only screen and (max-width: 1280px) {
+	#slogan {
+		font-size: 2.5em;
+	}
+}
+@media only screen and (max-width: 1100px) {
+	#slogan {
+		font-size: 1.75em;
+	}
+}
+@media only screen and (max-width: 950px) {
+	#memorialdaysale {
+		font-size: 2.5em;
+	}
+	#cmintro {
+		font-size: 0.875em;
+	}
+}
+@media only screen and (max-width: 800px) {
+	#slogan {
+		background: black;
+		color: white;
+		height: 60vh;
+	}
+	#cmintro {
+		font-size: 0.75em;
+	}
+	#memorialdaysale {
+		font-size: 2em;
+	}
+	.product {
+		width: 80%;
+		padding: 1%;
+		margin: 10%;
+		float: none;
+	}
+}
 
