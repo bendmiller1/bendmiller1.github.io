@@ -13,9 +13,10 @@ a {
 	margin-bottom: 1em;
 	background-color: red; 
 	color: white;
+	font-family: 'Open Sans', sans-serif;
 }	
 body {
-	font-size: 18px;
+	font-size: 1.125em;
 	text-align: center;
 }
 .clearfix:after {
@@ -28,6 +29,7 @@ body {
 }	
 #cmintro {
 	padding: 1em 0;
+	font-family: 'Open Sans', sans-serif;
 }
 footer {
 	background-color: black;
@@ -37,18 +39,24 @@ footer {
 }
 h1 {
 	font-size: 3em;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: .056em;
 }
 h3{
-	font-size: 1.5em
+	font-size: 1.5em;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: .056em;
 }
 header {
 	padding: .5em 0;
 }
 img {
-	height: 30vh;
+	width: 100%;
 }
 #lowermenu {
 	padding: 2em 0;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: .056em;
 }
 #memorialdaysale {
 	font-size: 3em;
@@ -60,6 +68,7 @@ img {
 }
 .price {
 	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
 }
 .product {
 	width: 31.3%;
@@ -70,6 +79,8 @@ img {
 .productname {
 	font-size: 1.5em;
 	color: black;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: .056em;
 }
 #slogan {
 	background: url(../images/scar.jpg);
@@ -79,16 +90,49 @@ img {
 	padding: 1.5em 0 0 2em;
 	font-size: 3em;
 	text-align: left;
-}
-h3, h1, #slogan, #lowermenu, .topmenu, .productname {
 	font-family: 'Bebas Neue', cursive;
-	letter-spacing: 1px;
+	letter-spacing: .056em;
 }
-.price, .addtocart, #cmintro {
-	font-family: 'Open Sans', sans-serif;
+.topmenu {
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: .056em;
 }
 
-
-
-
+@media only screen and (max-width: 1280px) {
+	#slogan {
+		font-size: 2.5em;
+	}
+}
+@media only screen and (max-width: 1100px) {
+	#slogan {
+		font-size: 1.75em;
+	}
+}
+@media only screen and (max-width: 950px) {
+	#memorialdaysale {
+		font-size: 2.5em;
+	}
+	#cmintro {
+		font-size: 0.875em;
+	}
+}
+@media only screen and (max-width: 800px) {
+	#slogan {
+		background: black;
+		color: white;
+		height: 60vh;
+	}
+	#cmintro {
+		font-size: 0.75em;
+	}
+	#memorialdaysale {
+		font-size: 2em;
+	}
+	.product {
+		width: 80%;
+		padding: 1%;
+		margin: 10%;
+		float: none;
+	}
+}
 
